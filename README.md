@@ -15,3 +15,6 @@
 Тест 5 - влез во else условот во for циклусот и со невалиден CardNumber па завршува со exception;
 ![image](https://github.com/user-attachments/assets/e022f66c-dd95-476e-a131-975484194549)
 
+5.Според Multiple Condition овој if услов е со логички оператор ИЛИ па кога дојде еден услов TRUE другите нема потреба да се гледаат и потребни се минимално 4 тест случаи.
+
+![image](https://github.com/user-attachments/assets/81a8b6a8-5a2e-4335-9aec-1b3040dec264)
