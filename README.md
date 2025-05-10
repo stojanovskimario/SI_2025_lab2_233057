@@ -18,3 +18,7 @@
 5.Според Multiple Condition овој if услов е со логички оператор ИЛИ па кога дојде еден услов TRUE другите нема потреба да се гледаат и потребни се минимално 4 тест случаи.
 
 ![image](https://github.com/user-attachments/assets/81a8b6a8-5a2e-4335-9aec-1b3040dec264)
+
+6.Правиме 2 @Test , еден за EveryStatement и еден за MultipleCondition, во првиот @Test односно EveryStatement ги тестирав сите RunTimeException со assertThrows,а потоа if условот за discount > 0 и потоа else условот со assertEquals, вториот @Test MultipleCondition го тестирав if условот во сите 4 можни случаи со помош на assertEquals.
+![image](https://github.com/user-attachments/assets/762e6adb-bac8-40d2-ac7c-6b687ce8aa47)
+
