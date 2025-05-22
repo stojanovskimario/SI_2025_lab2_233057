@@ -13,26 +13,26 @@ public class SILab2Test {
         RuntimeException ex = assertThrows(RuntimeException.class, () -> {
             SILab2.checkCart(null,"");
         });
-        assertFalse(ex.getMessage().contains("AllItems can't be null"));
+        assertTrue(ex.getMessage().contains("allItems list can't be null!"));
 
         List<Item> nevalidno = new ArrayList<Item>();
         nevalidno.add(new Item("",5,1,1));
         ex = assertThrows(RuntimeException.class, () -> {
            SILab2.checkCart(nevalidno,"0123456789012345");
         });
-        assertFalse(ex.getMessage().contains("Item name invalid"));
+        assertTrue(ex.getMessage().contains("Invalid item!"));
 
         List<Item> validno = new ArrayList<Item>();
         validno.add(new Item("abc",5,1,1));
         ex = assertThrows(RuntimeException.class, () -> {
             SILab2.checkCart(validno,"0");
         });
-        assertFalse(ex.getMessage().contains("cardNumber invalid"));
+        assertTrue(ex.getMessage().contains("Invalid card number!"));
 
         ex = assertThrows(RuntimeException.class, () -> {
             SILab2.checkCart(validno,"0123456789aaa345");
         });
-        assertFalse(ex.getMessage().contains("Invalid character in cardNumber"));
+        assertTrue(ex.getMessage().contains("Invalid character in card number!"));
 
         List<Item> validno2 = new ArrayList<>();
         validno2.add(new Item("cba",5,1,1));

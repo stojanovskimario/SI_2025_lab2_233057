@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SILab2Test" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-05-10T15:48:40" hostname="MARIO" time="0.027">
+<testsuite name="SILab2Test" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-05-22T19:11:55" hostname="MARIO" time="0.029">
   <properties/>
-  <testcase name="EveryStatement()" classname="SILab2Test" time="0.024"/>
+  <testcase name="EveryStatement()" classname="SILab2Test" time="0.025"/>
   <testcase name="MultipleCondition()" classname="SILab2Test" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
