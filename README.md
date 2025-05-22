@@ -19,6 +19,7 @@
 
 ![image](https://github.com/user-attachments/assets/81a8b6a8-5a2e-4335-9aec-1b3040dec264)
 
-6.Правиме 2 @Test , еден за EveryStatement и еден за MultipleCondition, во првиот @Test односно EveryStatement ги тестирав сите RunTimeException со assertThrows,а потоа if условот за discount > 0 и потоа else условот со assertEquals, вториот @Test MultipleCondition го тестирав if условот во сите 4 можни случаи со помош на assertEquals.
-![image](https://github.com/user-attachments/assets/762e6adb-bac8-40d2-ac7c-6b687ce8aa47)
+6.Правиме 2 @Test , еден за EveryStatement и еден за MultipleCondition, во првиот @Test односно EveryStatement ги тестирав сите RunTimeException со assertThrows проследено со assertTrue,а потоа if условот за discount > 0 и потоа else условот со assertEquals, вториот @Test MultipleCondition го тестирав if условот во сите 4 можни случаи со помош на assertEquals.
+![image](https://github.com/user-attachments/assets/caf8a280-c7fa-49a0-adaf-636134dd91f1)
+
 
